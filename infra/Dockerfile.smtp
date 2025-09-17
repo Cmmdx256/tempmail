@@ -1,0 +1,12 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+COPY packages/smtp/package*.json ./
+RUN npm install
+
+COPY packages/smtp/ ./
+
+EXPOSE 25
+
+CMD ["npm", "start"]

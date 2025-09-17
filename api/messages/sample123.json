@@ -1,0 +1,11 @@
+{
+  "address": "qwe93x@cmmdxmail.xyz",
+  "messages": [
+    {
+      "id": "msg1",
+      "from": "test@example.com",
+      "subject": "Hoş geldin!",
+      "received_at": "2025-09-17T21:05:00Z"
+    }
+  ]
+}

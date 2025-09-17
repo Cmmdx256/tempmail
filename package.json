@@ -1,0 +1,19 @@
+{
+  "name": "temp-mail-monorepo",
+  "version": "1.0.0",
+  "description": "Production-ready disposable email service",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "docker-compose -f infra/docker-compose.yml up --build",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  }
+}

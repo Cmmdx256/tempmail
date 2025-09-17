@@ -1,0 +1,8 @@
+{
+  "id": "msg1",
+  "from": "test@example.com",
+  "subject": "Hoş geldin!",
+  "body_text": "Merhaba Tuna!",
+  "body_html": "<p>Merhaba <b>Tuna</b>!</p>",
+  "attachments": []
+}
