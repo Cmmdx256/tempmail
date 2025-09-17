@@ -2,7 +2,7 @@
   "id": "msg1",
   "from": "test@example.com",
   "subject": "Hoş geldin!",
-  "body_text": "Merhaba Tuna!",
-  "body_html": "<p>Merhaba <b>Tuna</b>!</p>",
+  "body_text": "Merhaba dünya!",
+  "body_html": "<p>Merhaba <b>dünya</b>!</p>",
   "attachments": []
 }
